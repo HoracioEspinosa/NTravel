@@ -106,7 +106,12 @@
 <script src="js/jquery.viewportchecker.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.circliful.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
+<script src="js/map.js"></script>
 <script src="js/all.js"></script>
+
+
 <style type="text/css">
     body{overflow-x: none !important;}
 </style>
