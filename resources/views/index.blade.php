@@ -506,233 +506,40 @@
 				 data-slides-per-view="responsive" data-mob-slides="1" data-xs-slides="2" data-sm-slides="2"
 				 data-md-slides="3" data-lg-slides="4" data-add-slides="4">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="hotel-item style-6">
-							<div class="radius-top">
-								<img src="img/myImg/hard-rock-hotel-cancun.jpg" alt="">
-							</div>
-							<div class="title">
-								<div class="tour-info-line clearfix">
-									<div class="tour-info fl">
-										<img src="img/calendar_icon_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">July <strong>19th 2016</strong></span>
-									</div>
-									<div class="tour-info fl">
-										<img src="img/loc_icon_small_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">mexico</span>
-									</div>
-								</div>
-								<h4><b>cancun</b></h4>
-								<div class="rate-wrap">
-									<div class="rate">
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-									</div>
-									<i>485 votos</i>
-								</div>
-								<h5>desde <strong>$860</strong> / persona</h5>
-								<p class="f-14 color-grey-3">Cancún es una ciudad mexicana con playas paradisíacas de
-									arena blanca y mar turquesa, acuarios para nadar con delfines, ruinas mayas a pocos
-									pasos de tu hotel, islas con playas desiertas, un mar transparente lleno de vida
-									para hacer snorkel y buceo, buena vida nocturna, una gastronomía única en el mundo y
-									decenas de destinos cercanos para descubrir en la Riviera Maya.</p>
-								<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-								<a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="hotel-item style-6">
-							<div class="radius-top">
-								<img src="img/myImg/isla_mujeres.jpg" alt="">
-							</div>
-							<div class="title">
-								<div class="tour-info-line clearfix">
-									<div class="tour-info fl">
-										<img src="img/calendar_icon_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">Julio <strong>19 del 2016</strong></span>
-									</div>
-									<div class="tour-info fl">
-										<img src="img/loc_icon_small_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">mexico</span>
-									</div>
-								</div>
-								<h4><b>isla mujeres</b></h4>
-								<div class="rate-wrap">
-									<div class="rate">
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-									</div>
-									<i>485 votos</i>
-								</div>
-								<h5>desde <strong>$600</strong> / persona</h5>
-								<p class="f-14 color-grey-3">Isla Mujeres es una isla que se localiza cruzando la bahía
-									desde Basaseachi. Sus aguas tibias y transparentes son el hogar perfecto para los
-									delfines y tortugas, y nadar con ellos es una de las más atractivas actividades que
-									pueden realizarse aquí.!</p>
-								<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-								<a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="hotel-item style-6">
-							<div class="radius-top">
-								<img src="img/myImg/park-royal-grand-cozumel-intro.jpg" alt="">
-							</div>
-							<div class="title">
-								<div class="tour-info-line clearfix">
-									<div class="tour-info fl">
-										<img src="img/calendar_icon_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">Julio <strong>19 del 2016</strong></span>
-									</div>
-									<div class="tour-info fl">
-										<img src="img/loc_icon_small_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">mexico</span>
-									</div>
-								</div>
-								<h4><b>cozumel</b></h4>
-								<div class="rate-wrap">
-									<div class="rate">
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-									</div>
-									<i>485 votos</i>
-								</div>
-								<h5>desde <strong>$455</strong> / persona</h5>
-								<p class="f-14 color-grey-3">Ubicada en el Caribe mexicano, Cozumel es una isla llana
-									formada de roca caliza misma que proviene de los arrecifes. Los cenotes formados por
-									la filtración de agua a través de la piedra caliza durante miles de años pueden ser
-									explorados nadando o mediante actividades como el snorkel y el buceo; pueden
-									apreciarse distintas especies marinas.</p>
-								<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-								<a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="hotel-item style-6">
-							<div class="radius-top">
-								<img src="img/myImg/holbox.jpg" alt="">
-							</div>
-							<div class="title">
-								<div class="tour-info-line clearfix">
-									<div class="tour-info fl">
-										<img src="img/calendar_icon_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">Julio <strong>19 del 2016</strong></span>
-									</div>
-									<div class="tour-info fl">
-										<img src="img/loc_icon_small_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">mexico</span>
-									</div>
-								</div>
-								<h4><b>holbox</b></h4>
-								<div class="rate-wrap">
-									<div class="rate">
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-									</div>
-									<i>485 votos</i>
-								</div>
-								<h5>desde <strong>$990</strong> / persona</h5>
-								<p class="f-14 color-grey-3">Al llegar a Holbox uno sabe que descubrió algo especial. Su
-									nombre significa hoyo negro, aunque en realidad todo es verdor y transparencia.
-									Entre selva y mar, la isla desborda encantos para todo tipo de viajeros. Recorre sus
-									manglares en kayak, ten un encuentro cercano con el pez más grande del mundo y
-									descubre por qué este destino es sinónimo de belleza, tranquilidad, aventura y
-									placer.</p>
-								<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-								<a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="hotel-item style-6">
-							<div class="radius-top">
-								<img src="img/myImg/bacalar.jpg" alt="">
-							</div>
-							<div class="title">
-								<div class="tour-info-line clearfix">
-									<div class="tour-info fl">
-										<img src="img/calendar_icon_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">Julio <strong>19 del 2016</strong></span>
-									</div>
-									<div class="tour-info fl">
-										<img src="img/loc_icon_small_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">mexico</span>
-									</div>
-								</div>
-								<h4><b>bacalar</b></h4>
-								<div class="rate-wrap">
-									<div class="rate">
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-									</div>
-									<i>485 votos</i>
-								</div>
-								<h5>desde <strong>$860</strong> / persona</h5>
-								<p class="f-14 color-grey-3">Bacalar es una pintoresca comunidad en la que amantes de la
-									naturaleza, la aventura, la historia y las manifestaciones culturales encuentran un
-									perfecto escenario.</p>
-								<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-								<a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="hotel-item style-6">
-							<div class="radius-top">
-								<img src="img/myImg/blog-mahahual5.jpg" alt="">
-							</div>
-							<div class="title">
-								<div class="tour-info-line clearfix">
-									<div class="tour-info fl">
-										<img src="img/calendar_icon_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">Julio <strong>19 del 2016</strong></span>
-									</div>
-									<div class="tour-info fl">
-										<img src="img/loc_icon_small_grey.png" alt="">
-										<span class="font-style-2 color-grey-3">mexico</span>
-									</div>
-								</div>
-								<h4><b>mahahual</b></h4>
-								<div class="rate-wrap">
-									<div class="rate">
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-										<span class="fa fa-star color-yellow"></span>
-									</div>
-									<i>485 votos</i>
-								</div>
-								<h5>desde <strong>$600</strong> / persona</h5>
-								<p class="f-14 color-grey-3">El pequeño pueblo pesquero de Mahahual será el lugar ideal
-									para que goces de unas vacaciones de ensueño, sin preocupaciones y lejos de la vida
-									tan ajetreada de las grandes urbes. Comienza el día navegando por la zona lagunar
-									que nace del rompeolas formado por el arrecife. Sumérgete en sus aguas azul
-									turquesa, bucea y descubre bellezas inimaginables. </p>
-								<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-								<a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-							</div>
-						</div>
-					</div>
-
+                    @foreach($tours as $tour)
+                        <div class="swiper-slide">
+                            <div class="hotel-item style-6">
+                                <div class="radius-top">
+                                    <img src="img/myImg/{{ str_replace(' ', '_', $tour->name) }}.jpg" alt="">
+                                </div>
+                                <div class="title">
+                                    <div class="tour-info-line clearfix">
+                                        <div class="tour-info fl">
+                                            <img src="img/calendar_icon_grey.png" alt="">
+                                            <span class="font-style-2 color-grey-3"> {{ date("M", strtotime($tour->date)) }} <strong>{{ date("jS Y", strtotime($tour->date)) }}</strong></span>
+                                        </div>
+                                        <div class="tour-info fl">
+                                            <img src="img/loc_icon_small_grey.png" alt="">
+                                            <span class="font-style-2 color-grey-3">{{ $tour->city }}</span>
+                                        </div>
+                                    </div>
+                                    <h4><b>{{ $tour->name }}</b></h4>
+                                    <div class="rate-wrap">
+                                        <div class="rate">
+                                            @for($i = 0; $i < $tour->rating; $i++)
+                                                <span class="fa fa-star color-yellow"></span>
+                                            @endfor
+                                        </div>
+                                        <i>{{ $tour->reviews }} votos</i>
+                                    </div>
+                                    <h5>desde <strong>${{ $tour->price }}</strong> / persona</h5>
+                                    <p class="f-14 color-grey-3">{{ $tour->description }}</p>
+                                    <a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
+                                    <a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
 				</div>
 				<div class="pagination poin-style-2"></div>
 			</div>
@@ -763,9 +570,9 @@
 					<span class="fa fa-star color-yellow"></span>
 					<span class="fa fa-star color-yellow"></span>
 					<span class="fa fa-star color-yellow"></span>
-					<span class="fa fa-star color-yellow"></span>
+					<span class="fa fa-star color-white-light"></span>
 				</div>
-				<i>485 rewies</i>
+				<i>485 votos</i>
 				<div class="tp_price">$159 <small>USD</small></div>
 			</div>
 			<h4><b>x-caret plus</b></h4>

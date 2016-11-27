@@ -95,7 +95,6 @@
 </div>
 
 </div>
-
 <!-- MAP BLOCK -->
 <div class="map-block">
 	<div id="map-canvas" class="style-2" data-lat="21.190297" data-lng="-86.8212097" data-zoom="10" data-style="2"></div>
