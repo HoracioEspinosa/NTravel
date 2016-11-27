@@ -98,7 +98,7 @@
 
 <!-- MAP BLOCK -->
 <div class="map-block">
-	<div id="map-canvas" class="style-2" data-lat="33.664467" data-lng="-117.601586" data-zoom="10" data-style="2"></div>
+	<div id="map-canvas" class="style-2" data-lat="21.190297" data-lng="-86.8212097" data-zoom="10" data-style="2"></div>
     <div class="addresses-block">
         <a data-lat="33.664467" data-lng="-117.601586" data-string="Santa Monica Hotel"></a>
     </div>
