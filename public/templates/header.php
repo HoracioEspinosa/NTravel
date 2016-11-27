@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="nav">
-                    <a href="index.html" class="logo">
+                    <a href="/" class="logo">
                         <img src="img/theme-1/logo_dark.png" alt="lets travel">
                     </a>
                     <div class="nav-menu-icon">
