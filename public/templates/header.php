@@ -10,7 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <title>Natural Travel</title>
 </head>

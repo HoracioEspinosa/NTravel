@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    $tours =  DB::select('CALL getAllDestinationsorTours(0)');
+    return view('index', ['tours' => $tours]);
 });
 
 Route::get('/contact', function () {
