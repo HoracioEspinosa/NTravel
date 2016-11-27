@@ -3,7 +3,6 @@
 	<div class="swiper-container main-slider" data-autoplay="5000" data-loop="1" data-speed="900" data-center="0"
 		 data-slides-per-view="1">
 		<div class="swiper-wrapper">
-
 			<div class="swiper-slide" data-val="1">
 				<div class="clip">
 					<div class="bg bg-bg-chrome act" style="background-image:url(img/home_9/slide_1.jpg)">
