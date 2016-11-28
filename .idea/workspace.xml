@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed316941-8a48-4931-898b-292b06bd9206" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ed316941-8a48-4931-898b-292b06bd9206" name="Default" comment="" />
     <ignored path="NTravel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -405,12 +403,12 @@
       <workItem from="1480201375916" duration="2851000" />
       <workItem from="1480216205595" duration="10551000" />
       <workItem from="1480294615785" duration="16225000" />
-      <workItem from="1480340397066" duration="276000" />
+      <workItem from="1480340397066" duration="775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41237000" />
+    <option name="totallyTimeSpent" value="41736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,7 +420,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
