@@ -69,7 +69,7 @@
                     <div class="contact-info">
                         <div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>Cancun, Quintana Roo.</span>
                         </div>
-                        <div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a href="tel:9983015238">+99
+                        <div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a href="tel:9983015238">+52 99
                                 83 01 52 38</a></div>
                         <div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a href="mailto:">contact@naturaltravel.com</a>
                         </div>
@@ -107,12 +107,36 @@
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
 <script src="js/jquery.circliful.min.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en&key=AIzaSyC--VGnqr-wefSMZA7HtIMRpTHqPQLkRQs"></script>
 <script src="js/map.js"></script>
 <script src="js/all.js"></script>
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <style type="text/css">
     body{overflow-x: none !important;}
+    .ui-autocomplete li{ background: #022343; color: white;}
+    .ui-autocomplete li:hover{ background: #033768 !important; color: white;}
 </style>
+<script type="text/javascript">
+    $( function() {
+        $(".menu ul li").removeClass('active');
+        $(".menu ul li:nth-child("+$('#tabactivo').val()+")").addClass('active');
+        var array = $("#toursList").attr('data-tours').trim().toLowerCase().replace(/\b[a-z]/g, function(letter) {
+            return letter.toUpperCase();
+        }).split('_');
+        $( "#inputDestinos" ).autocomplete({
+            source: array
+        });
+    } );
+    $(".submitSearchTour").on('click', function () {
+        $("#searchTourForm").submit();
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+    });
+
+</script>
 </body>

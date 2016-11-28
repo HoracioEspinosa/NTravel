@@ -34,8 +34,7 @@
                             <li class="type-1"><a href="/about-us">Acerca de<span class="fa fa-angle-down"></span></a></li>
                             <li class="type-1"><a href="/our-tours">Nuestros tours<span class="fa fa-angle-down"></span></a></li>
                             <li class="type-1"><a href="/destinations">Destinos<span class="fa fa-angle-down"></span></a></li>
-                            <li class="type-1"><a href="/nightclubs">Antros<span class="fa fa-angle-down"></span></a></li>
-                            <li class="type-1"><a href="/packages">Paquetes<span class="fa fa-angle-down"></span></a>
+                            <!--li class="type-1"><a href="/packages">Paquetes<span class="fa fa-angle-down"></span></a>
                                 <ul class="dropmenu">
                                     <li><a href="dropdowns.html">Dropdowns</a></li>
                                     <li><a href="prices.html">Pricing Tables</a></li>
@@ -44,6 +43,7 @@
                                     <li><a href="gallerypopup.html">Gallery Popup</a></li>
                                     <li><a href="thank_you.html">Thank you</a></li>
                                 </ul>
+                            </li-->
                             <li class="type-1"><a href="/contact">Contácto<span class="fa fa-angle-down"></span></a>
                             </li>
                         </ul>

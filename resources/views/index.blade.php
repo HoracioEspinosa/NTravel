@@ -23,8 +23,7 @@
 										y aventuras.</p>
 									<div class="row">
 										<div class="col-xs-12 col-sm-6">
-											<a href="#" class="c-button b-60 bg-blue-3 hv-transparent delay-2 fr"><img
-														src="img/loc_icon.png" alt=""><span>Ver nuestros tours</span></a>
+											<a href="/our-tours" class="c-button b-60 bg-blue-3 hv-transparent delay-2 fr"><img src="img/loc_icon.png" alt=""><span>Ver nuestros tours</span></a>
 										</div>
 										<div class="col-xs-12 col-sm-6">
 											<a href="#" class="c-button b-60 bg-tr-1 hv-blue-3-f delay-2 fl"><span>Ver nuestras promociones</span></a>
@@ -61,78 +60,80 @@
 			</div>
 		</div>
 		<div class="tab-content tpl-tabs-cont section-text t-con-style-1">
-			<div class="tab-pane active in" id="one">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-							<div class="tabs-block">
-								<h5>Tu destino</h5>
-								<div class="input-style-1">
-									<img src="img/loc_icon_small.png" alt="">
-									<input type="text" placeholder="Teclea tu proximo destino">
+			<form action="/tour-details" method="post" id="searchTourForm">
+				<input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
+				<div class="tab-pane active in" id="one">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+								<div class="tabs-block">
+									<h5>Tu destino</h5>
+									<div class="input-style-1">
+										<img src="img/loc_icon_small.png" alt="">
+										<input type="text" placeholder="Teclea tu proximo destino" id="inputDestinos" name="destino">
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
-							<div class="tabs-block">
-								<h5>Entrada</h5>
-								<div class="input-style-1">
-									<img src="img/calendar_icon.png" alt="">
-									<input type="text" placeholder="Mm/Dd/Aa" class="datepicker">
+							<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+								<div class="tabs-block">
+									<h5>Entrada</h5>
+									<div class="input-style-1">
+										<img src="img/calendar_icon.png" alt="">
+										<input type="text" placeholder="Mm/Dd/Aa" class="datepicker" name="entrada">
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
-							<div class="tabs-block">
-								<h5>Salida</h5>
-								<div class="input-style-1">
-									<img src="img/calendar_icon.png" alt="">
-									<input type="text" placeholder="Mm/Dd/Aa" class="datepicker">
+							<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+								<div class="tabs-block">
+									<h5>Salida</h5>
+									<div class="input-style-1">
+										<img src="img/calendar_icon.png" alt="">
+										<input type="text" placeholder="Mm/Dd/Aa" class="datepicker" name="salida">
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
-							<div class="tabs-block">
-								<h5>Niños</h5>
-								<div class="drop-wrap drop-wrap-s-3">
-									<div class="drop">
-										<b>01</b>
-										<a href="#" class="drop-list"><i class="fa fa-angle-down"></i></a>
-										<span>
+							<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+								<div class="tabs-block">
+									<h5>Niños</h5>
+									<div class="drop-wrap drop-wrap-s-3">
+										<div class="drop">
+											<b>01</b>
+											<a href="#" class="drop-list"><i class="fa fa-angle-down"></i></a>
+											<span>
+												<a href="#">01</a>
+												<a href="#">02</a>
+												<a href="#">03</a>
+												<a href="#">04</a>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+								<div class="tabs-block">
+									<h5>Adultos</h5>
+									<div class="drop-wrap drop-wrap-s-3">
+										<div class="drop">
+											<b>01</b>
+											<a href="#" class="drop-list"><i class="fa fa-angle-down"></i></a>
+											<span>
 															<a href="#">01</a>
 															<a href="#">02</a>
 															<a href="#">03</a>
 															<a href="#">04</a>
 														</span>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
-							<div class="tabs-block">
-								<h5>Adultos</h5>
-								<div class="drop-wrap drop-wrap-s-3">
-									<div class="drop">
-										<b>01</b>
-										<a href="#" class="drop-list"><i class="fa fa-angle-down"></i></a>
-										<span>
-															<a href="#">01</a>
-															<a href="#">02</a>
-															<a href="#">03</a>
-															<a href="#">04</a>
-														</span>
-									</div>
-								</div>
-							</div>
-						</div>
 
-						<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-							<a href="#" class="c-button b-60 bg-white"><i
-										class="fa fa-search"></i><span>Buscar ahora</span></a>
+							<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+								<a href="#" class="c-button b-60 bg-white submitSearchTour"><i class="fa fa-search"></i><span>Buscar ahora</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</form>
 			<div class="tab-pane" id="two">
 				<div class="container">
 					<div class="row">
@@ -490,7 +491,6 @@
 </div>
 
 <!-- HOTEL-ITEM-->
-<!-- HOTEL-ITEM-->
 <div class="main-wraper padd-90" style="padding-bottom: 20px;">
 	<div class="container">
 		<div class="row">
@@ -507,38 +507,40 @@
 				 data-md-slides="3" data-lg-slides="4" data-add-slides="4">
 				<div class="swiper-wrapper">
                     @foreach($tours as $tour)
-                        <div class="swiper-slide">
-                            <div class="hotel-item style-6">
-                                <div class="radius-top">
-                                    <img src="img/myImg/{{ str_replace(' ', '_', $tour->name) }}.jpg" alt="">
-                                </div>
-                                <div class="title">
-                                    <div class="tour-info-line clearfix">
-                                        <div class="tour-info fl">
-                                            <img src="img/calendar_icon_grey.png" alt="">
-                                            <span class="font-style-2 color-grey-3"> {{ date("M", strtotime($tour->date)) }} <strong>{{ date("jS Y", strtotime($tour->date)) }}</strong></span>
-                                        </div>
-                                        <div class="tour-info fl">
-                                            <img src="img/loc_icon_small_grey.png" alt="">
-                                            <span class="font-style-2 color-grey-3">{{ $tour->city }}</span>
-                                        </div>
-                                    </div>
-                                    <h4><b>{{ $tour->name }}</b></h4>
-                                    <div class="rate-wrap">
-                                        <div class="rate">
-                                            @for($i = 0; $i < $tour->rating; $i++)
-                                                <span class="fa fa-star color-yellow"></span>
-                                            @endfor
-                                        </div>
-                                        <i>{{ $tour->reviews }} votos</i>
-                                    </div>
-                                    <h5>desde <strong>${{ $tour->price }}</strong> / persona</h5>
-                                    <p class="f-14 color-grey-3">{{ $tour->description }}</p>
-                                    <a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
-                                    <a href="#" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
-                                </div>
-                            </div>
-                        </div>
+						@if($tour->type == 0)
+							<div class="swiper-slide">
+								<div class="hotel-item style-6">
+									<div class="radius-top">
+										<img src="img/myImg/{{ str_replace(' ', '_', $tour->name) }}.jpg" alt="">
+									</div>
+									<div class="title">
+										<div class="tour-info-line clearfix">
+											<div class="tour-info fl">
+												<img src="img/calendar_icon_grey.png" alt="">
+												<span class="font-style-2 color-grey-3"> {{ date("M", strtotime($tour->date)) }} <strong>{{ date("jS Y", strtotime($tour->date)) }}</strong></span>
+											</div>
+											<div class="tour-info fl">
+												<img src="img/loc_icon_small_grey.png" alt="">
+												<span class="font-style-2 color-grey-3">{{ $tour->city }}</span>
+											</div>
+										</div>
+										<h4><b>{{ $tour->name }}</b></h4>
+										<div class="rate-wrap">
+											<div class="rate">
+												@for($i = 0; $i < $tour->rating; $i++)
+													<span class="fa fa-star color-yellow"></span>
+												@endfor
+											</div>
+											<i>{{ $tour->reviews }} votos</i>
+										</div>
+										<h5>desde <strong>${{ $tour->price }}</strong> / persona</h5>
+										<p class="f-14 color-grey-3">{{ $tour->description }}</p>
+										<a href="#" class="c-button b-50 bg-grey-3-t1 hv-grey-3-t">detalles</a>
+										<a href="/tour-details?tour={{$tour->name}}" class="c-button bg-dr-blue-2 hv-dr-blue-2-o fr">¡reserva ya!</a>
+									</div>
+								</div>
+							</div>
+						@endif
                     @endforeach
 				</div>
 				<div class="pagination poin-style-2"></div>
@@ -1080,4 +1082,7 @@
 		</div>
 	</div>
 </div>
+
+<input type="hidden" data-tours="@foreach($tours as $tour){{$tour->name}}_ @endforeach" id="toursList">
+<input type="hidden" id="tabactivo" value="1">
 <?php include('templates/footer.php'); ?>

@@ -102,4 +102,5 @@
         <a data-lat="33.664467" data-lng="-117.601586" data-string="Santa Monica Hotel"></a>
     </div>
 </div>
+<input type="hidden" id="tabactivo" value="5">
 <?php include('templates/footer.php'); ?>
