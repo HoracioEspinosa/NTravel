@@ -193,7 +193,7 @@
 															<a href="#">02</a>
 															<a href="#">03</a>
 															<a href="#">04</a>
-														</span>
+										</span>
 									</div>
 								</div>
 							</div>
